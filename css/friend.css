@@ -1,0 +1,134 @@
+.chats__chat__friend-lg {
+  display: flex;
+}
+.friend__status {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.friend__status-name {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.friend__status-comment {
+  font-size: 15px;
+  color: black;
+  opacity: 0.7;
+}
+.friends-plusfriend {
+  margin-top: 10px;
+}
+
+.friends-plusfriend__bar {
+  background-color: #fffceb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-color: #e4e3e3;
+  opacity: 0.7;
+}
+.friends-plusfriend__column {
+  cursor: pointer;
+  margin-top: 10px;
+  display: flex;
+}
+
+.friends-plusfriend__avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.friends-plusfriend__comment {
+  margin: auto;
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+.chat__list {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.friends-friend__bar {
+  background-color: #fffceb;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-color: #e4e3e3;
+  opacity: 0.7;
+}
+
+.friend-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.friends__friend {
+  display: flex;
+  flex-direction: column;
+}
+
+.friends__friend-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d5d5d5;
+}
+.friends__friend-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.friends__friend-status {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px 5px;
+}
+.friends__friend-name {
+  font-size: 15px;
+  color: black;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.friends__friend-comment {
+  font-size: 12px;
+  color: black;
+  opacity: 0.7;
+  margin-left: 5px;
+}
+
+.friends__friend-music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 7px;
+  margin-right: 10px;
+  border: 1.5px solid #d6fabc;
+  border-radius: 15px;
+  font-size: 10px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.friends__friend-music i {
+  font-size: 2px;
+  padding-right: 3px;
+}

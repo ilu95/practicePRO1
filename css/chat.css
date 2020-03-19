@@ -1,0 +1,28 @@
+.chats {
+  margin-top: 80px;'
+}
+.m-avatar__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.chat__list {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.chats__search {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+  opacity: 0.5;
+  font-weight: bold;
+}
+.chats__search-icon {
+  padding-left: 15px;
+  margin-right: 5px;
+}
+.chat__friend {
+  cursor: pointer;
+  display: flex;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practicePRO1</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__agency">KT</span>
+        <span class="status-bar__time">3:07</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-signal"></i>
+        <span class="status-bar__battery-percent">
+          100%
+        </span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <h1 class="header__title">채팅</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-ellipsis-v"></i>
+          </span>
+        </div>
+      </header>
+    </div>
+    <main class="chats">
+      <div class="chats__search">
+        <span class="chats__search-icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <div class="chats__search-comment">
+          채팅방 이름, 참여자 검색
+        </div>
+      </div>
+      <ul class="chat__list">
+        <li class="chats__chat">
+          <a href="chat.html">
+            <div class="chats__chat__friend-lg">
+              <div class="friend__column">
+                <img src="imges/avatar.jpg" class="m-avatar__avatar" />
+              </div>
+              <div class="friend__status">
+                <span class="friend__status-name">
+                  김주영
+                </span>
+                <span class="friend__status-comment">
+                  포메라니안 키우고싶다....
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="news.html" class="nav__list-link">
+            <i class="fas fa-hashtag"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

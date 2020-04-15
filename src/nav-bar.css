@@ -1,0 +1,46 @@
+.nav {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 17px 20px;
+  border-top: 1px solid rgb(194, 194, 194);
+  animation: naviup 0.5s linear;
+}
+@keyframes naviup {
+  from {
+    transform: translatey(100px);
+  }
+  to {
+    transform: translatey(0px);
+  }
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__list-item {
+  font-size: 25px;
+}
+.nav__list-item:nth-child(2) {
+  position: relative;
+}
+.nav__list-item:nth-child(2) span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: rgb(240, 106, 106);
+  color: white;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  left: 12px;
+  top: -9px;
+}

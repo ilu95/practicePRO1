@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>practicePRO1</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -28,22 +28,61 @@
       </div>
       <header class="header">
         <div class="header__header-column">
-          <b class="header__title">더보기</b>
+          <b class="header__title">More</b>
         </div>
         <div class="header__header-column">
           <i class="fas fa-search"></i>
           <i class="fas fa-qrcode"></i>
-          <i class="fas fa-music"></i>
           <i class="fas fa-cog"></i>
         </div>
       </header>
     </div>
-    <main class="chats">
-      <ul class="chat__list">
-        <li class="chats__chat chat">
-          <a href="chat.html"> </a>
-        </li>
-      </ul>
+    <main>
+      <div class="user">
+        <div class="user-info">
+          <img src="imges/avatar.jpg" class="m-avatar__avatar" />
+          <div class="friend__status">
+            <span class="friend__status-name">
+              김주영
+            </span>
+            <span class="friend__status-comment">
+              ilu52046224@gmail.com
+            </span>
+          </div>
+        </div>
+        <i class="far fa-comment-alt"></i>
+      </div>
+      <div class="content">
+        <div class="content__column">
+          <i class="far fa-smile"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="content__column">
+          <i class="fas fa-brush"></i>
+          <span>Themes</span>
+        </div>
+        <div class="content__column">
+          <i class="fab fa-kickstarter"></i>
+          <span>Account</span>
+        </div>
+      </div>
+      <div class="suggestions">
+        <span>Suggestions</span>
+        <div class="suggestion">
+          <div class="suggestion__column">
+            <img src="imges/kakaostory.png" />
+            <span>Kakao Story</span>
+          </div>
+          <div class="suggestion__column">
+            <img src="imges/kakakofriends.jpg" />
+            <span>Kakao friends</span>
+          </div>
+          <div class="suggestion__column">
+            <img src="imges/friendsgem.jpg" />
+            <span>Friends Gem</span>
+          </div>
+        </div>
+      </div>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -56,10 +95,11 @@
           <a href="index.html" class="nav__list-link">
             <i class="far fa-comment"></i>
           </a>
+          <span>3</span>
         </li>
         <li class="nav__list-item">
-          <a href="news.html" class="nav__list-link">
-            <i class="fas fa-hashtag"></i>
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
@@ -69,5 +109,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>

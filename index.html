@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>practicePRO1</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -28,12 +28,14 @@
       </div>
       <header class="header">
         <div class="header__header-column">
-          <h1 class="header__title">채팅</h1>
+          <h1 class="header__title">Chat</h1>
         </div>
         <div class="header__header-column">
-          <span class="header__icon">
-            <i class="fas fa-ellipsis-v"></i>
-          </span>
+          <i class="fas fa-search"></i>
+          <i class="far fa-comment"></i>
+          <a href="setting.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </div>
       </header>
     </div>
@@ -51,14 +53,89 @@
           <a href="chat.html">
             <div class="chats__chat__friend-lg">
               <div class="friend__column">
-                <img src="imges/avatar.jpg" class="m-avatar__avatar" />
+                <img src="imges/avatar.jpg" class="friend-avatar" />
               </div>
               <div class="friend__status">
-                <span class="friend__status-name">
-                  김주영
-                </span>
+                <div class="friend__status-me">
+                  <span class="friend__status-mytag">
+                    나
+                  </span>
+                  <span class="friend__status-name">
+                    김주영
+                  </span>
+                </div>
                 <span class="friend__status-comment">
                   포메라니안 키우고싶다....
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chat">
+          <a href="chat.html">
+            <div class="chats__chat__friend-lg">
+              <div class="friend__column">
+                <div class="friend__avatar-team">
+                  <img src="imges/avatar.jpg" class="friend-avatar-team" />
+                  <img
+                    src="imges/friend__avatar-4.png"
+                    class="friend-avatar-team"
+                  />
+                  <img
+                    src="imges/friend__avatar-5.png"
+                    class="friend-avatar-team"
+                  />
+                </div>
+              </div>
+              <div class="friend__status">
+                <div class="friend__status-me">
+                  <span class="friend__status-name">
+                    김선호, 전규호
+                  </span>
+                  <span class="friend__status-number">
+                    3
+                  </span>
+                </div>
+                <span class="friend__status-comment">
+                  고등학교때 재밌었는데
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chat">
+          <a href="chat.html">
+            <div class="chats__chat__friend-lg">
+              <div class="friend__column">
+                <img src="imges/friend__avatar-1.png" class="friend-avatar" />
+              </div>
+              <div class="friend__status">
+                <div class="friend__status-me">
+                  <span class="friend__status-name">
+                    안성언
+                  </span>
+                </div>
+                <span class="friend__status-comment">
+                  먼저 들어가고 나보다 늦게 전역하네 ㅋㅋㅋㅋㅋㅋ
+                </span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="chats__chat">
+          <a href="chat.html">
+            <div class="chats__chat__friend-lg">
+              <div class="friend__column">
+                <img src="imges/friend__avatar-2.png" class="friend-avatar" />
+              </div>
+              <div class="friend__status">
+                <div class="friend__status-me">
+                  <span class="friend__status-name">
+                    윤상철
+                  </span>
+                </div>
+                <span class="friend__status-comment">
+                  빨리 나와서 같이 놀자
                 </span>
               </div>
             </div>
@@ -77,10 +154,11 @@
           <a href="index.html" class="nav__list-link">
             <i class="fas fa-comment"></i>
           </a>
+          <span>3</span>
         </li>
         <li class="nav__list-item">
-          <a href="news.html" class="nav__list-link">
-            <i class="fas fa-hashtag"></i>
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
@@ -90,5 +168,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
   </body>
 </html>

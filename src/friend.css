@@ -7,11 +7,29 @@
   flex-direction: column;
   justify-content: space-around;
 }
-
+.friend__status-me {
+  display: flex;
+}
+.friend__status-mytag {
+  padding: 3px;
+  font-size: 15px;
+  color: white;
+  border-radius: 20px;
+  background-color: black;
+  opacity: 0.7;
+}
 .friend__status-name {
-  font-size: 20px;
+  margin-left: 5px;
+  font-size: 18px;
   color: black;
   font-weight: bold;
+}
+.friend__status-number {
+  font-size: 17px;
+  color: black;
+  opacity: 0.5;
+  margin-left: 3px;
+  padding: 2px;
 }
 
 .friend__status-comment {
@@ -71,12 +89,44 @@
 .friend-avatar {
   width: 60px;
   height: 60px;
-  border-radius: 50%;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 30%;
+}
+.friend-avatar-team {
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 40%;
+}
+.friend__avatar-team :nth-child(n) {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+.friend__avatar-team :nth-child(2) {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+.friend__avatar-team :nth-child(3) {
+  position: absolute;
+  left: 15px;
+  top: 30px;
 }
 
 .friends__friend {
   display: flex;
   flex-direction: column;
+}
+.friend__column {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 60px;
+  height: 60px;
 }
 
 .friends__friend-column {

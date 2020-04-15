@@ -1,0 +1,22 @@
+.find-function {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.find-function__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.find-function__column i {
+  margin: 10px 0;
+  font-size: 30px;
+}
+.recommend {
+  margin-left: 15px;
+  margin-top: 50px;
+  opacity: 0.6;
+}

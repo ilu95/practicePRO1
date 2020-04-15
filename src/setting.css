@@ -1,0 +1,13 @@
+.function {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.function__column {
+  margin: 20px;
+  font-size: 20px;
+}
+.function__column i {
+  margin-right: 10px;
+}
